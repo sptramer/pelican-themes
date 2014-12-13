@@ -38,6 +38,7 @@ h1,h2,h3,h4,h5,h6 { color: #000001; margin-bottom: 0px}
 .table th, .table td { line-height: 1.3em; }
 
 .brand { font-family: 'Alegreya SC', 'Garamond', 'Georgia'; font-weight: normal; font-size: 42px; line-height:40px; margin-top: 10px; display: block; color:#000001; }
+.subhead { font-family: 'Alegreya SC', 'Garamond', 'Georgia'; font-weight: normal; font-size: 18px; line-height:30px; display: block; color:#000001; }
 
 /* Styling for articles */
 .article { padding-bottom:15px; padding-right: 40px; }
@@ -58,6 +59,14 @@ h1,h2,h3,h4,h5,h6 { color: #000001; margin-bottom: 0px}
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
     border-radius: 2px;
+}
+
+.read-more {
+    float: left;
+    font-size: 14px;
+    color: #0A5693;
+    padding: 1px 3px 1px 3px;
+    text-decoration: underline;
 }
 
 /* Article summary */

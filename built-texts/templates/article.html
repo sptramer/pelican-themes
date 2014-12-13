@@ -17,10 +17,13 @@
 	<hr />
       </div>
     </div>
+
+    {% if DISQUS_SITENAME %}
     <div class="span10">
       <h3>Comments</h3>
-    
+
     {% include 'disqus.html' %}
     </div>  
+    {% endif %}
     </div>
 {% endblock %}
